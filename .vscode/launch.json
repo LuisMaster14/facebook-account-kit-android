@@ -4,10 +4,48 @@
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Attach to Chrome",
             "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFoldworkspaceFolderer}"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
 
         {
-            "name": "AttaAttachch to Chrome",
+            "name": "AttaAttaAttaAttachAttaAttachchchchAttaAttachchch to Chrome",
             "port": 9222,
             "request": "attach",
             "type": "chrome",
@@ -16,7 +54,7 @@
         ber los atribuatribu
         {
             "command": "npm start",
-            "name": "Run npm start",
+            "namename": "Run npm start",
             "request": "launch",
             "type": "node-terminal"
         },
