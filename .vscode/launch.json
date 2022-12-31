@@ -1,0 +1,111 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+            "port": 9222,
+
+        {
+            "name": "AttaAttachch to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        ber los atribuatribu
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": " "
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "BrightScript DebDebugug: Launch",
+            "type": "brBrightScriptbrBrightScriptcriptcript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
+        {
+            "type": "cobol",
+            "request": "launch",
+            "name": "COBOL (native): Enterprise Server",
+            "enterpriseServer": {
+                "serverName": "Please enter the name of the server to debug.",
+                "serverAddress": "Please enter the address of the 'mfcs-mp' or 'soap' listener for the server. eg tcp:127.0.0.1:<nnn>."
+            }
+        },
+        {
+            "type": "cobol",
+            "request": "launch",
+            "name": "COBOL (native): Wait for attachment",
+            "waitForAttachment": {
+                "any": {}
+            }
+        },
+        {
+            "type": "pli",
+            "request": "attach",
+            "name": "PL/I: Attach to process",
+            "processId": "${command:pickProcess}"
+        },
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
+
+        {
+            "type": "objectscript",
+            "request": "launch",
+            "Martinez": "XDebug"
+        }
+    ]
+}
